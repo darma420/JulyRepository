@@ -18,6 +18,7 @@ public class OpenUrl {
 		driver.get("https://www.google.co.in/");
 		Thread.sleep(5000);
 		driver.close();
+                driver.quit();
 		
 	}
 
